@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.col-md-8,
+.col-md-4 {
+    padding: initial !important;
+}
+
+.image-box {
+    text-align: center;
+    height: 100%;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-box h1 {
+    color: #fff;
+    font-size: 80px;
+    padding-top: 200px;
+}
+
+.partner-logo {
+    bottom: 60px;
+    position: absolute;
+}
+
+.partner-logo img {
+    width: 14%;
+    margin: 0 5%;
+}
+
+.form-container {
+    height: 100%;
+}
+
+.menu {
+    padding: 15px 20px 0;
+    border-bottom: 2px solid #ff00aa;
+}
+
+.menu button {
+    background: transparent;
+    border: none;
+    outline: none !important;
+    margin: 0 12px;
+    padding: 0px 10px 5px 10px;
+}
+
+.form-box {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.form-box h1 {
+    margin-bottom: 50px;
+    color: #c200ff;
+}
+
+.form-box input {
+    margin-bottom: 40px;
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+    background: transparent;
+    border-bottom: 1px solid #c200ff;
+}
+
+.form-box button {
+    width: 50%;
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #c200ff;
+    color: #fff;
+    font-weight: 600;
+}
+
+#register-tab {
+    display: none;
+}
+
+#login-btn {
+    border-bottom: 4px solid #c200ff;
+}

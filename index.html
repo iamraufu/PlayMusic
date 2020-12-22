@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Music</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="image-box">
+                <h1>Play Music</h1>
+                <div class="partner-logo">
+                    <img src="img/1.png" alt="spotify">
+                    <img src="img/2.png" alt="iTunes">
+                    <img src="img/3.png" alt="deezer">
+                    <img src="img/4.png" alt="shazam">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-container">
+                <div class="menu">
+                    <button type="button" id="login-btn" onclick="openlogintab()">Log in</button>
+                    <button type="button" id="register-btn" onclick="openregistertab()">Register</button>
+                </div>
+                <div class="form-box">
+                    <div id="login-tab">
+                        <h1>Sign in</h1>
+                        <input type="text" placeholder="Enter Username" required>
+                        <input type="password" placeholder="Enter Password" required>
+                        <button type="button">Log in</button>
+                    </div>
+                    <div id="register-tab">
+                        <h1>Create Account</h1>
+                        <input type="text" placeholder="Enter Username" required>
+                        <input type="text" placeholder="Enter E-mail" required>
+                        <input type="password" placeholder="Enter Password" required>
+                        <button type="button">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
