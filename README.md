@@ -1,2 +1,5 @@
 # PlayMusic
- demo version of music landing page with sign in and registration form though it needs improvement
+ Demo version of **Music Landing Page** with *Sign In* and *Registration Form* though it needs improvement
+
+# Live Demo Link
+https://iamraufu.github.io/PlayMusic/
